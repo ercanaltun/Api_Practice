@@ -23,7 +23,7 @@ ve gelen yaslar icinde 21, 61, ve 23 degerlerinden birinin oldugunu test edin.
 
         //1.Step: Set the Url
 
-        String url="http://dummy.restapiexample.com/api/v1/employees";
+        String url = "http://dummy.restapiexample.com/api/v1/employees";
 
         //2.Step:Set the Data
 
@@ -48,14 +48,8 @@ ve gelen yaslar icinde 21, 61, ve 23 degerlerinden birinin oldugunu test edin.
         //hasItem(): Girilen tek bir data'yı doğrulamak için kullanılır.
         //hasItems(): Girilen birden fazla datayı doğrulamak için kullanılır.
 
-
-
-
-
-
-
-
+    }
 
 
     }
-}
+
