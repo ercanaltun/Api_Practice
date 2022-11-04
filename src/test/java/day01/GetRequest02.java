@@ -11,10 +11,11 @@ public class GetRequest02 {
     @Test
     public void test02() {
 
-        String url = "https://reqres.in/api/users";
+        String url = "https://reqres.in/api/users/1";
         Response response = given().when().get(url);
         //given().when().get(url) -> request
         //Response response -> response
+        response.prettyPrint();
 
         //Header Test
         response.then().assertThat()
@@ -24,10 +25,14 @@ public class GetRequest02 {
 
         //Body Test
         /* idsi 1 olanın datalarınının aşağıdaki gibi olduğunu test ediniz
-             "email": "george.bluth@reqres.in",
-            "first_name": "George",
-            "last_name": "Bluth",
+        "email": "george.bluth@reqres.in",
+        "first_name": "George",
+        "last_name": "Bluth",
+        "avatar": "https://reqres.in/img/faces/1-image.jpg"
          */
+
+
+
 
 
     }
