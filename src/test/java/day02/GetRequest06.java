@@ -2,8 +2,6 @@ package day02;
 
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import org.hamcrest.Matchers;
-import org.junit.Assert;
 import org.junit.Test;
 import utilities.Authentication;
 
