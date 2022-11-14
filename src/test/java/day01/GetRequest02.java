@@ -23,15 +23,6 @@ public class GetRequest02 {
                 .statusLine("HTTP/1.1 200 OK")
                 .contentType(ContentType.JSON);
 
-        //Body Test
-        /* idsi 1 olanın datalarınının aşağıdaki gibi olduğunu test ediniz
-        "email": "george.bluth@reqres.in",
-        "first_name": "George",
-        "last_name": "Bluth",
-        "avatar": "https://reqres.in/img/faces/1-image.jpg"
-         */
-
-
 
 
 
