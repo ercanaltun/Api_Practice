@@ -120,7 +120,11 @@ public class GetRequest08 extends GmiBankBaseUrl {
         assertEquals(expectedDataPojo.getCity(), actualDataPojo.getCity());
         assertEquals(expectedDataPojo.getSsn(), actualDataPojo.getSsn());
 
+
+
     }
+
+
 
 
 }
