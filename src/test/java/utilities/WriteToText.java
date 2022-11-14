@@ -32,6 +32,30 @@ WriteToText {
         }
     }
 
+    public static void saveFirstNameData(String fileName, Customer[] customers) {
+        try {
+            BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, false));
+
+            for (int i = 0; i < customers.length; i++) {
+                writer.append(customers[i].getFirstName() + ",\n");
+            }
+            writer.close();
+        } catch (Exception e) {
+        }
+    }
+
+    public static void saveCityData(String fileName, Customer[] customers) {
+        try {
+            BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, false));
+
+            for (int i = 0; i < customers.length; i++) {
+                writer.append(customers[i].getCity() + ",\n");
+            }
+            writer.close();
+        } catch (Exception e) {
+        }
+    }
+
 
     /*
     First Name,
