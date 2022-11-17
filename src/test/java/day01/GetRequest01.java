@@ -40,6 +40,8 @@ public class GetRequest01 {
         Assert.assertEquals("application/json; charset=utf-8", response.contentType());
 
 
+
+
         // 2) assertThat ile
         response.then().assertThat()
                 .statusCode(200)
