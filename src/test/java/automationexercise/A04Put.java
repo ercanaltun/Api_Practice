@@ -21,10 +21,15 @@ public class A04Put extends AutomationexerciseBaseUrl {
     @Test
     public void a04() {
 
+
         spec.pathParam("1","brandsList");
+
 
         Response response=given().spec(spec).when().put("/{1}");
         response.prettyPrint();
 
     }
+
+
+
 }
