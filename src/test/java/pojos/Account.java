@@ -69,9 +69,11 @@ public class Account {
     public String getCreateDate() {
         return createDate;
     }
+
     public void setCreateDate(String createDate) {
         this.createDate = createDate;
     }
+
     public String getClosedDate() {
         return closedDate;
     }
@@ -110,4 +112,8 @@ public class Account {
                 ", accountlogs='" + accountlogs + '\'' +
                 '}';
     }
+
+
+
+
 }

@@ -21,6 +21,7 @@ public class A02Post extends AutomationexerciseBaseUrl {
     @Test
     public void a02() {
 
+
         //Set the Url
         spec.pathParam("first","productsList");
 
@@ -33,4 +34,8 @@ public class A02Post extends AutomationexerciseBaseUrl {
 
 
     }
+
+
+
+
 }

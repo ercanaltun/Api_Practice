@@ -97,6 +97,7 @@ public class GetRequest08 extends GmiBankBaseUrl {
         //4.Olarak Pojo ile yapma:
         spec.pathParams("first", "tp-customers", "second", 43703);
 
+
         GmiBank9DataPojo expectedDataPojo = new GmiBank9DataPojo("Alda", "Monahan",
                 "Nichelle Hermann Kohler", "com.github.javafaker.Name@7c011174@gmail.com",
                 "909-162-8114", "231-501-9849",
@@ -104,10 +105,13 @@ public class GetRequest08 extends GmiBankBaseUrl {
 
         System.out.println("expectedDataPojo = " + expectedDataPojo);
 
+
         Response response2 = given().spec(spec).headers("Authorization", "Bearer " + generateToken()).when().get("/{first}/{second}");
+
 
         GmiBank9DataPojo actualDataPojo = response2.as(GmiBank9DataPojo.class);
         System.out.println("actualDataPojo = " + actualDataPojo);
+
 
         assertEquals(200, response2.statusCode());
         assertEquals(expectedDataPojo.getFirstName(), actualDataPojo.getFirstName());
