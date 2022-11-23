@@ -9,7 +9,7 @@ import pojos.CountryPost;
 
 
 import static io.restassured.RestAssured.given;
-import static utilities.Authentication.generateToken;
+import static utilities.AuthenticationGIM.generateToken;
 
 public class PostRequest extends GmiBankBaseUrl {
     /*

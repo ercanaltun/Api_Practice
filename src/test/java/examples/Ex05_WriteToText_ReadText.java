@@ -14,7 +14,7 @@ import java.util.List;
 
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.*;
-import static utilities.Authentication.generateToken;
+import static utilities.AuthenticationGIM.generateToken;
 
 public class Ex05_WriteToText_ReadText extends GmiBankBaseUrl {
 

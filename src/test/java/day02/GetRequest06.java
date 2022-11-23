@@ -3,13 +3,13 @@ package day02;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.junit.Test;
-import utilities.Authentication;
+import utilities.AuthenticationGIM;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertEquals;
 
-public class GetRequest06 extends Authentication {
+public class GetRequest06 extends AuthenticationGIM {
 
     @Test
     public void test06(){
