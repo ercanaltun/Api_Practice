@@ -9,7 +9,7 @@ import pojos.User;
 
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
-import static utilities.Authentication.generateToken;
+import static utilities.AuthenticationGIM.generateToken;
 
 public class GetRequest09 extends GmiBankBaseUrl {
 

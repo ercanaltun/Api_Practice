@@ -5,7 +5,7 @@ import base_url.GmiBankBaseUrl;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.junit.Test;
-import utilities.Authentication;
+import utilities.AuthenticationGIM;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
@@ -29,7 +29,7 @@ public class Ex04 extends GmiBankBaseUrl {
 
         //Send the Request and get the Response
 
-        Response response=given().spec(spec).headers("Authorization","Bearer "+Authentication.generateToken()).when().get("/{first}");
+        Response response=given().spec(spec).headers("Authorization","Bearer "+ AuthenticationGIM.generateToken()).when().get("/{first}");
         response.prettyPrint();
 
         //Do Assertion

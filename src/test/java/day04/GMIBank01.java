@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static io.restassured.RestAssured.given;
-import static utilities.Authentication.generateToken;
+import static utilities.AuthenticationGIM.generateToken;
 
 public class GMIBank01 extends GmiBankBaseUrl {
 
