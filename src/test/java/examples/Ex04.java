@@ -18,7 +18,6 @@ public class Ex04 extends GmiBankBaseUrl {
     // Matcher Class ile müşteri bilgilerini doğrulayın
     //JsonPath ile müşteri bilgilerini doğrulayınız.
 
-
     @Test
     public void test04() {
 
