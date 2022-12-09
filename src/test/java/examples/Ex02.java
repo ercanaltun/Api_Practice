@@ -55,4 +55,10 @@ public class Ex02 extends ReqresBaseUrl {
 
 
     }
+
+
+
+
+
+
 }
