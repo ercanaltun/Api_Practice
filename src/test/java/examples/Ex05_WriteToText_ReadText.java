@@ -140,12 +140,5 @@ public class Ex05_WriteToText_ReadText extends GmiBankBaseUrl {
         assertTrue(actualCities.containsAll(expectedCities));
 
 
-
-
-
-
-
-
-
     }
 }

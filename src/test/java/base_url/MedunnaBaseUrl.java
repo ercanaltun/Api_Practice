@@ -11,4 +11,7 @@ public class MedunnaBaseUrl {
     public void setup(){
         spec = new RequestSpecBuilder().setBaseUri("https://medunna.com/api").build();
     }
+
+
+
 }
