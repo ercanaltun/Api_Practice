@@ -35,5 +35,8 @@ public class PostRequest extends GmiBankBaseUrl {
 
         //Doğrulama Yaptık
         Assert.assertEquals(countryPost.getName(), actualData.getName());
+
     }
+
+
 }
