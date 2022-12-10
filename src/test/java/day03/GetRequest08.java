@@ -33,6 +33,7 @@ public class GetRequest08 extends GmiBankBaseUrl {
     @Test
     public void test08() {
 
+
         //Set the Url
         spec.pathParams("first", "tp-customers", "second", 43703);
 
@@ -54,6 +55,8 @@ public class GetRequest08 extends GmiBankBaseUrl {
                         "zipCode", equalTo("67321"),
                         "city", equalTo("St Louis"),
                         "ssn", equalTo("108-53-6655"));
+
+
 
         //2.Olarak JsonPath() classı ile:
         JsonPath json = response.jsonPath();
