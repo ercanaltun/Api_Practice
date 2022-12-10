@@ -53,4 +53,6 @@ public class GetRequest07 extends GmiBankBaseUrl {
         assertEquals("delilah.metz",json.getString("user.login"));
 
     }
+
+
 }
